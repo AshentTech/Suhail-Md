@@ -26,7 +26,7 @@ global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://gi
 
 global.devs = "923184474176" // Developer Contact
 global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "null";
-global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "923184474176";
+global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "263787914273";
 
 
 
@@ -72,12 +72,12 @@ module.exports = {
   HANDLERS: process.env.PREFIX  || ".",
   BRANCH  : process.env.BRANCH  || "main",
   VERSION : process.env.VERSION || "1.3.4",
-  caption : process.env.CAPTION || "©sᴜʜᴀɪʟ²²¹-ᴍᴅ" , // ```『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ sᴜʜᴀɪʟ²²¹-ᴍᴅ 』```", //*『sᴜʙsᴄʀɪʙᴇ • sᴜʜᴀɪʟ ᴛᴇᴄʜ』*\n youtube.com/@suhailtechinfo0"),
+  caption : process.env.CAPTION || "©ᴀsʜᴇɴᴛ ᴛᴇᴄʜ²⁴-ᴍᴅ" , // ```『  ᴀsʜᴇɴᴛ ᴛᴇᴄʜ²²⁴-ᴍᴅ 』```", //*『ᴀsʜᴇɴᴛ •  ᴀsʜᴇɴᴛ ᴛᴇᴄʜ』*\n youtube.com/@ashenttech"),
  
   author : process.env.PACK_AUTHER|| "",
   packname: process.env.PACK_NAME || "",
   botname : process.env.BOT_NAME  || "sᴜʜᴀɪʟ-ᴍᴅ",
-  ownername:process.env.OWNER_NAME|| "It'x Suhail",
+  ownername:process.env.OWNER_NAME|| "It'x ᴀsʜᴇɴᴛ ᴛᴇᴄʜ",
 
 
   errorChat : process.env.ERROR_CHAT || "",
@@ -101,7 +101,7 @@ module.exports = {
 
 
 global.ELEVENLAB_API_KEY = process.env.ELEVENLAB_API_KEY || "";
-global.aitts_Voice_Id = process.env.AITTS_ID|| "37";
+global.aitts_Voice_Id = process.env.AITTS_ID|| "";
 
 
 
